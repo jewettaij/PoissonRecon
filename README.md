@@ -1,7 +1,8 @@
 PoissonRecon LOW MEMORY VERSION
 ========
 
-This is a version of [PoissonRecon](https://github.com/mkazhdan/PoissonRecon) implements
+This version of
+[PoissonRecon](https://github.com/mkazhdan/PoissonRecon) implements
 [some changes](https://github.com/mkazhdan/PoissonRecon/issues/152).
 to reduce the memory needed for compilation.
 It should be possible to compile this version on a computer with only 16GB of RAM.
