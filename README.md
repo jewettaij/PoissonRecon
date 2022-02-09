@@ -1,3 +1,34 @@
+PoissonRecon LOW MEMORY VERSION
+========
+
+This is a version of [PoissonRecon](https://github.com/mkazhdan/PoissonRecon) implements
+[some changes](https://github.com/mkazhdan/PoissonRecon/issues/152).
+to reduce the memory needed for compilation.
+It should be possible to compile this version on a computer with only 16GB of RAM.
+
+### CLANG compiler recommended
+This version uses
+[the CLANG compiler](https://clang.llvm.org)
+by default (instead of GCC), to get around
+[this issue](https://github.com/mkazhdan/PoissonRecon/issues/211).
+
+
+This fork was created for the convenience of
+[VISFD users](https://github.com/jewettaij/visfd).
+This version lacks some features related to surface color present in
+the original software.  VISFD users don't need these features.
+
+*For a more up-to-date full-featured version of this code,
+download the latest version of
+[PoissonRecon](https://github.com/mkazhdan/PoissonRecon)
+and make those same changes, if necessary).*
+
+*-Andrew 2022-2-08*
+
+The original README file is shown below.
+________________________________________
+
+
 <center><h2>Adaptive Multigrid Solvers (Version 13.72)</h2></center>
 <center>
 <a href="#LINKS">links</a>
