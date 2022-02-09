@@ -15,8 +15,8 @@ IS_SOURCE=ImageStitching.cpp
 AV_SOURCE=AdaptiveTreeVisualization.cpp
 CP_SOURCE=ChunkPLY.cpp
 
-COMPILER ?= gcc
-#COMPILER ?= clang
+#COMPILER ?= gcc
+COMPILER ?= clang  #//*// https://github.com/mkazhdan/PoissonRecon/issues/211
 
 ifeq ($(COMPILER),gcc)
 	CFLAGS += -fopenmp -Wno-deprecated -std=c++14 -pthread -Wno-invalid-offsetof
